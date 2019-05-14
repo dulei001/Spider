@@ -1,0 +1,2 @@
+构建镜像 docker build -t lvhe/spider:6.0 .
+运行容器 docker run -d -p 6805:6800 -v /data/spider:/data/spider --name spider_6 lvhe/spider:6.0
